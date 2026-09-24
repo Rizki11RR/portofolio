@@ -83,6 +83,26 @@
            hover:-translate-y-0.5;
   }
 
+  .card-hover .browser-mockup {
+    @apply transition-transform duration-500 ease-out;
+  }
+
+  .card-hover:hover .browser-mockup {
+    transform: scale(1.02);
+  }
+
+  .card-hover:hover .badge {
+    @apply bg-primary text-white;
+  }
+
+  .card-hover h3 {
+    @apply transition-colors duration-300;
+  }
+
+  .card-hover:hover h3 {
+    @apply text-primary;
+  }
+
   .card-body {
     @apply p-6;
   }
@@ -248,6 +268,60 @@
 
   .project-row-content {
     @apply w-full;
+  }
+
+  .project-card {
+    @apply bg-white rounded-card overflow-hidden
+           border border-neutral-border/70
+           shadow-card transition-all duration-300;
+  }
+
+  .project-card:hover {
+    @apply shadow-card-hover border-primary/20 -translate-y-1;
+  }
+
+  .project-card .project-row-inner {
+    margin: 0;
+  }
+
+  .project-card .project-row-content {
+    @apply p-6 md:p-8 lg:p-10;
+  }
+
+  .project-card .project-row-visual {
+    @apply p-5 md:p-8 bg-surface/50;
+  }
+
+  .project-card .browser-mockup {
+    @apply transition-transform duration-500 ease-out rounded-lg overflow-hidden;
+  }
+
+  .project-card:hover .browser-mockup {
+    transform: scale(1.02);
+  }
+
+  .project-card .project-row-content .badge {
+    @apply transition-all duration-300;
+  }
+
+  .project-card:hover .project-row-content .badge {
+    @apply bg-primary text-white;
+  }
+
+  .project-card .project-row-content h3 {
+    @apply transition-colors duration-300;
+  }
+
+  .project-card:hover .project-row-content h3 {
+    @apply text-primary;
+  }
+
+  .project-card .btn-secondary {
+    @apply transition-all duration-300;
+  }
+
+  .project-card:hover .btn-secondary {
+    @apply bg-primary text-white border-primary shadow-md;
   }
 
   /* --- Flow Steps (process visualization) --- */

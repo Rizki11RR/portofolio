@@ -1,0 +1,16 @@
+#Image
+Mockup-Sistem Peminjaman Ruangan.jpeg
+
+#Judul
+Sistem Informasi Peminjaman Ruangan dengan Penerapan Algoritma Scheduling FIFO dan Weighted Sum Model — Universitas Alma Ata Yogyakarta
+
+#Deskripsi
+Sistem informasi berbasis web untuk mengelola peminjaman ruangan kuliah di Universitas Alma Ata Yogyakarta. Sistem ini menerapkan algoritma scheduling FIFO (First In First Out) sebagai dasar penyelesaian konflik peminjaman ruangan, dikombinasikan dengan Weighted Sum Model (WSM) untuk penentuan prioritas berdasarkan bobot pemohon (60%) dan bobot jenis kegiatan (40%).
+
+
+
+#Stack Teknologi
+CodeIgniter 3
+PostgreSQL
+Bootstrap 5.3
+Dompdf

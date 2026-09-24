@@ -1,0 +1,17 @@
+#Image
+Nexora.jpeg
+
+#Judul
+Nexora Digital — Platform Penjualan Produk Digital Otomatis via Telegram Bot
+
+
+#Deskripsi
+Sistem penjualan produk digital (voucher, lisensi, akun) secara otomatis menggunakan Telegram Bot sebagai frontend interaktif, dengan Dashboard Admin berbasis web untuk mengelola inventaris, memverifikasi pembayaran QRIS, mengirim produk digital otomatis, serta memantau analitik penjualan secara real-time.
+
+#Stack Teknologi
+PHP
+Laravel
+Tailwind CSS
+MySQL
+Docker
+Redis
