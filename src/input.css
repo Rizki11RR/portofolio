@@ -132,9 +132,31 @@
     @apply label;
   }
 
+  .label-dot {
+    @apply relative;
+  }
+
   .label-dot::before {
     content: "";
-    @apply w-1.5 h-1.5 rounded-full bg-primary;
+    @apply w-1.5 h-1.5 rounded-full bg-primary relative z-10;
+  }
+
+  .label-dot::after {
+    content: "";
+    @apply absolute w-1.5 h-1.5 rounded-full bg-primary/40;
+    left: 0;
+    animation: label-dot-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes label-dot-pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    50% {
+      transform: scale(3.5);
+      opacity: 0;
+    }
   }
 
   .badge {
